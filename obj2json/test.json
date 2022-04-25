@@ -1,0 +1,12 @@
+{
+  "sAge" : 23,
+  "mark" : {
+    "Social" : 83,
+    "English" : 67,
+    "Maths" : 99,
+    "Science" : 79,
+    "Tamil" : 89
+  },
+  "id" : 1,
+  "name" : "ABU"
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<student sId="1">
+    <adress>
+        <city>salem</city>
+        <id>1</id>
+        <state>Tamilnadu</state>
+    </adress>
+    <mark>
+        <entry>
+            <key>Social</key>
+            <value>83</value>
+        </entry>
+        <entry>
+            <key>English</key>
+            <value>67</value>
+        </entry>
+        <entry>
+            <key>Maths</key>
+            <value>99</value>
+        </entry>
+        <entry>
+            <key>Science</key>
+            <value>79</value>
+        </entry>
+        <entry>
+            <key>Tamil</key>
+            <value>89</value>
+        </entry>
+    </mark>
+    <sAge>23</sAge>
+    <name>ABU</name>
+</student>
