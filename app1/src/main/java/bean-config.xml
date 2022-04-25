@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+         <!-- bean definitions here -->
+    <context:annotation-config />  
+  <context:component-scan base-package="com.te.spring"></context:component-scan>
+	<!-- <bean class="com.te.spring.module.Student" name="s1" >
+		<property name="sId" value="1"></property>
+		<property name="sName" value="raj"></property>
+		<property name="sAge" value="19"></property>
+		<property name="adress" ref="a1"></property>
+		<property name="friends">
+			<list>
+				<value>abi</value>
+				<value>akesh</value>
+				<value>chella</value>
+				<value>bala</value>
+			</list>
+
+		</property>
+		<property name="someThing">
+			<set>
+				<value>1</value>
+				<value>1</value>
+				<value>2</value>
+				<value>2</value>
+			</set>
+
+		</property>
+	</bean>
+	<bean class="com.te.spring.module.Student" name="s2">
+		<property name="sId" value="2"></property>
+		<property name="sName" value="ravi"></property>
+		<property name="sAge" value="23"></property>
+	</bean>
+	<bean class="com.te.spring.module.Student" name="s3">
+		<constructor-arg name="sId" value="3"></constructor-arg>
+		<constructor-arg name="sName" value="abi"></constructor-arg>
+		<constructor-arg name="sAge" value="20"></constructor-arg>
+	</bean>
+	<bean class="com.te.spring.module.Address" name="adress">
+		<constructor-arg name="id" value="3"></constructor-arg>
+		<constructor-arg name="city" value="chennai"></constructor-arg>
+		<constructor-arg name="state" value="tamilnadu"></constructor-arg>
+	</bean> -->
+
+</beans>
